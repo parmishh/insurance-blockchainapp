@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+  
+  background-image: url("https://bl-i.thgim.com/public/incoming/g62ixy/article64939043.ece/alternates/FREE_1200/CCI_UDHindu_KSL_U0H7JTL80_R1595334831_0_0a8c4d7b-76c1-46d9-80f5-83cf889f8fb5.jpg");
+  
+ 
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #c516d4;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(222, 16, 208);
+}
+
+.App-link {
+  color: #ee61fb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.blur {
+  position: absolute;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  background: #e7f527;
+  filter: blur(75px);
+}
+
+.blur2 {
+  position: absolute;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  background:#04ac1a;
+  filter: blur(100px);
+}
+
+.blur3 {
+  position: absolute;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  background: #9dd5e2;
+  filter: blur(75px);
+}
